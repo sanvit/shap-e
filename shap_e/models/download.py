@@ -14,10 +14,10 @@ from filelock import FileLock
 from tqdm.auto import tqdm
 
 MODEL_PATHS = {
-    "transmitter": "https://openaipublic.azureedge.net/main/shap-e/transmitter.pt",
-    "decoder": "https://openaipublic.azureedge.net/main/shap-e/vector_decoder.pt",
-    "text300M": "https://openaipublic.azureedge.net/main/shap-e/text_cond.pt",
-    "image300M": "https://openaipublic.azureedge.net/main/shap-e/image_cond.pt",
+    "transmitter": "https://model-files.sanvit.org/shap-e/transmitter.pt",
+    "decoder": "https://model-files.sanvit.org/shap-e/vector_decoder.pt",
+    "text300M": "https://model-files.sanvit.org/shap-e/text_cond.pt",
+    "image300M": "https://model-files.sanvit.org/shap-e/image_cond.pt",
 }
 
 CONFIG_PATHS = {
